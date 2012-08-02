@@ -18,7 +18,7 @@ group :assets do
 end
 
 gem 'jquery-rails'
-gem 'capistrano'
+gem 'thin'
 gem 'haml'
 
 # To use ActiveModel has_secure_password
