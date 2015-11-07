@@ -1,5 +1,10 @@
 class Apps::WpmController < ApplicationController
-    def privacy 
+  
+  def index
     
+  end
+
+  def privacy
+
   end
 end

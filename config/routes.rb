@@ -4,6 +4,7 @@ Rails.application.routes.draw do
 
   # You can have the root of your site routed with "root"
 
+  get 'apps/wpm' => 'apps/wpm#index'
   get 'apps/wpm/privacy' => 'apps/wpm#privacy'
   root 'home#index'
 
