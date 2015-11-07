@@ -1,0 +1,33 @@
+!!!
+%html{ :xmlns => "http://www.w3.org/1999/xhtml" }
+  %head
+    %meta{ :content => "text/html; charset=utf-8", "http-equiv" => "Content-Type" }
+    %title
+      = h(yield(:title) || "Hi - We're Noctivity") 
+
+    = stylesheet_link_tag :application
+    = yield(:head)
+  %body
+    #header
+      .left
+      .right
+        = link_to image_tag("logo.gif", :border => "0", :alt => "This is Noctivity's Site"), "mailto:info@noctivity.com"
+  
+    #container
+        
+      = yield
+
+    #footer
+      %p
+        = mail_to "info@noctivity.com"
+      %p
+        19825 North Cove Rd, Ste 173 - Cornelius, NC 28031 - 704.323.5661
+        
+      %p
+        (c) Noctivity.com 2009-2013
+      %p.thank_you
+        Thank you to 
+        = link_to "Obvious", "http://www.obvious.com"
+        for the site theme
+        
+      
