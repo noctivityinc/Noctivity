@@ -1,0 +1,10 @@
+---
+applications:
+- name: dds-daughter-dance
+  path: build
+  buildpack: staticfile_buildpack
+  routes:
+    - route: dds-daughter.noctivity.com
+    - route: dds-daughter.cfapps.io
+  memory: 128M
+

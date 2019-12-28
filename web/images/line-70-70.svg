@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 70.707 70.707">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #a0a0af;
+      }
+    </style>
+  </defs>
+  <path id="Intersection_7" data-name="Intersection 7" class="cls-1" d="M1673.815,484.815,1675,483.63Zm-10,0L1675,473.63Zm-10,0L1675,463.63Zm-10,0L1675,453.63Zm-10,0L1675,443.63Zm-10,0L1675,433.63Zm-10,0L1675,423.629ZM1605,483.629l68.815-68.815Zm0-10,58.815-58.815Zm0-10,48.815-48.815Zm0-10,38.815-38.815Zm0-10,28.815-28.815Zm0-10,18.815-18.815Zm0-10,8.815-8.815Z" transform="translate(-1604.646 -414.461)"/>
+</svg>
