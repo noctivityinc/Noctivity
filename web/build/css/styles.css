@@ -159,6 +159,12 @@ footer a:hover {
     text-align: center;
 }
 
+#privacy h2 {
+    margin-top: 24px;
+    margin-bottom: 16px;
+    text-align: left;
+}
+
 @media (max-width: 959px) {
 
     h5,

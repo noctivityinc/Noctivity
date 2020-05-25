@@ -2,9 +2,11 @@
 applications:
 - name: noctivity
   path: build
-  buildpack: staticfile_buildpack
+  buildpacks: 
+    - staticfile_buildpack
   routes:
     - route: www.noctivity.com
+    - route: noctivity.com
     - route: noctivity.cfapps.io
   memory: 128M
 
