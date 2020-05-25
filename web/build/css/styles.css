@@ -1,0 +1,178 @@
+html,
+body {}
+
+header {
+    margin: 75px auto;
+}
+
+.top-contact {
+    background: rgba(216, 216, 216, .25);
+    width: 100%;
+    font-family: benton-sans, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #2E3C40;
+    font-size: 14px;
+    padding: auto 24px;
+}
+
+.top-contact svg {
+    height: 18px;
+    fill: #2E3C40;
+}
+
+header .logo {
+    width: 250px;
+}
+
+h1,
+h2,
+h3 {
+    font-family: starling, serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1 span,
+h2 span {
+    color: red;
+}
+
+h1 {
+    font-size: 44px;
+    line-height: 1em;
+    margin-bottom: 24px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 36px;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+h5,
+p,
+ul,
+li {
+    font-family: benton-sans, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 38px;
+    color: #2E3C40;
+}
+
+section {
+    margin-bottom: 95px;
+}
+
+section#our-work .caption {
+    background: rgba(216, 216, 216, .25);
+    padding: 60px;
+    text-align: left;
+    line-height: 38px;
+}
+
+section#our-work .results {
+    text-align: left;
+}
+
+section#our-work .results li {
+    text-align: left;
+}
+
+section#our-work .results span {
+    font-weight: bold;
+}
+
+section#experience ul {
+  column-count: 2;
+  column-rule: dotted 1px #333;
+  column-gap: 24px;
+  list-style-type: none;
+}
+
+section#experience ul li {
+    text-align: center;
+}
+
+section#who p {
+    margin-bottom: 32px;
+    text-align: center;
+}
+
+section#who .person {
+    margin-bottom: 32px;
+    text-align: center;
+}
+
+section#who .person strong {
+    display: block;
+    margin-top: 16px;
+}
+
+section#contact h2 {
+    text-align: left;
+}
+
+section#contact a {
+    color: #FD5C5C;
+}
+
+section#contact a:hover {
+    color: black;
+}
+
+footer {
+    background: #FD5C5C;
+    color: white;
+    padding: 95px;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+footer h2 {
+    margin: 0px;
+}
+
+footer p {
+    color: white;
+}
+
+footer a {
+    color: white;
+    text-decoration: underline;
+}
+
+footer a:hover {
+    color: black;
+}
+
+.carousel-indicators li {
+    background-color: black;
+}
+
+.carousel-item img {
+    text-align: center;
+}
+
+@media (max-width: 959px) {
+
+    h5,
+    p,
+    ul,
+    li {
+        font-size: 16px;
+    }
+
+    section {
+        margin-bottom: 60px;
+    }
+
+    section#our-work .caption {
+        padding: 16px;
+    }
+}
